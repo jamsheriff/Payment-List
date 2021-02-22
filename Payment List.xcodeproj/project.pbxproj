@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9766E5825E3DB8A00827679 /* LoggingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9766E5725E3DB8A00827679 /* LoggingData.swift */; };
 		E97A77AC25E1C0F600E3AE98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A77AB25E1C0F600E3AE98 /* AppDelegate.swift */; };
 		E97A77AE25E1C0F600E3AE98 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A77AD25E1C0F600E3AE98 /* SceneDelegate.swift */; };
 		E97A77B025E1C0F600E3AE98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A77AF25E1C0F600E3AE98 /* ViewController.swift */; };
 		E97A77B325E1C0F600E3AE98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97A77B125E1C0F600E3AE98 /* Main.storyboard */; };
 		E97A77B525E1C0F700E3AE98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E97A77B425E1C0F700E3AE98 /* Assets.xcassets */; };
 		E97A77B825E1C0F700E3AE98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97A77B625E1C0F700E3AE98 /* LaunchScreen.storyboard */; };
+		E97A77C125E1DB0C00E3AE98 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A77C025E1DB0C00E3AE98 /* PaymentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E9766E5725E3DB8A00827679 /* LoggingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingData.swift; sourceTree = "<group>"; };
 		E97A77A825E1C0F600E3AE98 /* Payment List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Payment List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97A77AB25E1C0F600E3AE98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E97A77AD25E1C0F600E3AE98 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		E97A77B425E1C0F700E3AE98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E97A77B725E1C0F700E3AE98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E97A77B925E1C0F700E3AE98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E97A77C025E1DB0C00E3AE98 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E9766E5B25E3DD2D00827679 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E9766E5725E3DB8A00827679 /* LoggingData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E9766E5D25E3DDA000827679 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E97A77AF25E1C0F600E3AE98 /* ViewController.swift */,
+				E97A77C025E1DB0C00E3AE98 /* PaymentViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E9766E5F25E3DDC100827679 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E97A77B125E1C0F600E3AE98 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E97A779F25E1C0F600E3AE98 = {
 			isa = PBXGroup;
 			children = (
@@ -58,8 +87,9 @@
 			children = (
 				E97A77AB25E1C0F600E3AE98 /* AppDelegate.swift */,
 				E97A77AD25E1C0F600E3AE98 /* SceneDelegate.swift */,
-				E97A77AF25E1C0F600E3AE98 /* ViewController.swift */,
-				E97A77B125E1C0F600E3AE98 /* Main.storyboard */,
+				E9766E5B25E3DD2D00827679 /* Model */,
+				E9766E5D25E3DDA000827679 /* Controller */,
+				E9766E5F25E3DDC100827679 /* View */,
 				E97A77B425E1C0F700E3AE98 /* Assets.xcassets */,
 				E97A77B625E1C0F700E3AE98 /* LaunchScreen.storyboard */,
 				E97A77B925E1C0F700E3AE98 /* Info.plist */,
@@ -140,6 +170,8 @@
 				E97A77B025E1C0F600E3AE98 /* ViewController.swift in Sources */,
 				E97A77AC25E1C0F600E3AE98 /* AppDelegate.swift in Sources */,
 				E97A77AE25E1C0F600E3AE98 /* SceneDelegate.swift in Sources */,
+				E9766E5825E3DB8A00827679 /* LoggingData.swift in Sources */,
+				E97A77C125E1DB0C00E3AE98 /* PaymentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
