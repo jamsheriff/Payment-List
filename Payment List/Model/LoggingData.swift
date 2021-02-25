@@ -7,6 +7,9 @@
 
 import Foundation
 
+ 
+
+
 struct LoggingData {
     
     var username: String

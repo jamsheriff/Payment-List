@@ -7,10 +7,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController  {
 
+     
     
-
     @IBOutlet weak var usernameTF: UITextField!
     
 
@@ -53,8 +53,8 @@ class ViewController: UIViewController {
         }
 
         task.resume()
-    
-    
+
+
     }
    
     @IBAction func unwindSegueToMainScreen(segue: UIStoryboardSegue) {
@@ -74,3 +74,4 @@ override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
  }
 
 }
+

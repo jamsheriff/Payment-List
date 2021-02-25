@@ -15,6 +15,8 @@
 		E97A77B525E1C0F700E3AE98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E97A77B425E1C0F700E3AE98 /* Assets.xcassets */; };
 		E97A77B825E1C0F700E3AE98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97A77B625E1C0F700E3AE98 /* LaunchScreen.storyboard */; };
 		E97A77C125E1DB0C00E3AE98 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97A77C025E1DB0C00E3AE98 /* PaymentViewController.swift */; };
+		E981222025E474EE0092AB7D /* PaymentListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E981221F25E474EE0092AB7D /* PaymentListManager.swift */; };
+		E981222325E48FDA0092AB7D /* ContentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E981222225E48FDA0092AB7D /* ContentData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		E97A77B725E1C0F700E3AE98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E97A77B925E1C0F700E3AE98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E97A77C025E1DB0C00E3AE98 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		E981221F25E474EE0092AB7D /* PaymentListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentListManager.swift; sourceTree = "<group>"; };
+		E981222225E48FDA0092AB7D /* ContentData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +49,8 @@
 			isa = PBXGroup;
 			children = (
 				E9766E5725E3DB8A00827679 /* LoggingData.swift */,
+				E981222225E48FDA0092AB7D /* ContentData.swift */,
+				E981221F25E474EE0092AB7D /* PaymentListManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -171,6 +177,8 @@
 				E97A77AC25E1C0F600E3AE98 /* AppDelegate.swift in Sources */,
 				E97A77AE25E1C0F600E3AE98 /* SceneDelegate.swift in Sources */,
 				E9766E5825E3DB8A00827679 /* LoggingData.swift in Sources */,
+				E981222325E48FDA0092AB7D /* ContentData.swift in Sources */,
+				E981222025E474EE0092AB7D /* PaymentListManager.swift in Sources */,
 				E97A77C125E1DB0C00E3AE98 /* PaymentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
