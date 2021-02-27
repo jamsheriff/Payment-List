@@ -9,15 +9,20 @@ import UIKit
 
 class PaymentViewController: UIViewController, PaymentListManagerDelegate {
     func didFailWithError(error: Error) {
-        print(error)
+        print( error)
     }
+    
     
     func didUpdateList(list: String) {
-        print( list)
+        
+          print(list)
+    
     }
     
     
     
+    
+  
     var login: String?
     
     
@@ -33,8 +38,8 @@ class PaymentViewController: UIViewController, PaymentListManagerDelegate {
         
         paymentListManager.delegate = self
         
-        self.textView.text = paymentListManager.textArray[Int.random(in:0...3)]
-        
+       self.textView.text = paymentListManager.textArray[Int.random(in:0...3)]
+         
         
         guard let login = self.login else { return }
         label.text = "Ваш Платежи, \(login)"
@@ -54,33 +59,4 @@ class PaymentViewController: UIViewController, PaymentListManagerDelegate {
     
     
     
-    //MARK: - PaymentListManagerDelegate
-    
-            
-    func didUpdateList(list: String, paymentListManager: PaymentListManager, paymentList: PaymentListManager) {
-
-                DispatchQueue.main.async {
-                    self.textView.text = list.description
-                    self.textView.text = ""
-                    
-                    
-                    
-                }
-                
-                
-                func didFailWithError(error: Error) {
-                    print(error)
-                }
-                
-            }
-            
-            
-
-        
-    }
-        
-    
-
-
-
-    
+}

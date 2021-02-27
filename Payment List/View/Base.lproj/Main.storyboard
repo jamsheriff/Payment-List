@@ -114,7 +114,6 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fCr-Ba-BM1">
                                 <rect key="frame" x="0.0" y="83.666666666666657" width="414" height="475.33333333333337"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -133,6 +132,7 @@
                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                         <constraints>
                             <constraint firstItem="jgE-gN-ebR" firstAttribute="leading" secondItem="ff3-xV-VoA" secondAttribute="leading" constant="157" id="2N4-Fi-O76"/>
+                            <constraint firstItem="ff3-xV-VoA" firstAttribute="trailing" secondItem="jgE-gN-ebR" secondAttribute="trailing" constant="162" id="6Cs-6o-8Wm"/>
                             <constraint firstItem="WGS-Ix-boF" firstAttribute="top" secondItem="ff3-xV-VoA" secondAttribute="top" constant="20" id="GsS-l1-UHg"/>
                             <constraint firstItem="ff3-xV-VoA" firstAttribute="bottom" secondItem="jgE-gN-ebR" secondAttribute="bottom" constant="112" id="K46-M2-4ky"/>
                             <constraint firstItem="WGS-Ix-boF" firstAttribute="leading" secondItem="ff3-xV-VoA" secondAttribute="leading" id="c3j-Ve-kPh"/>

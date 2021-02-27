@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct  ContentData : Decodable{
-    var list :String
+struct  ContentData : Codable{
+    let list : String
     
+  
 }

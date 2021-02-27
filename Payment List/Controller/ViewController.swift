@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController  {
 
-     
+    var paymentListManager: PaymentListManager?
     
     @IBOutlet weak var usernameTF: UITextField!
     
@@ -23,6 +23,7 @@ class ViewController: UIViewController  {
     
         performSegue(withIdentifier: "detailSegue", sender: nil)
     
+        
         let token = "..."
         let url = URL(string: "https://82.202.204.94/api/")!
 

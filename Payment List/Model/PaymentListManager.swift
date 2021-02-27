@@ -18,7 +18,7 @@ struct  PaymentListManager {
     
     let baseURL = "https://82.202.204.94/api/"
     let apiKey = "12345"
-    let v      = 1
+    let v      =   1
     let textArray = ["...", "-"  ,   " Это Ваши Платежи", "вы все оплатили"]
     
     func getList(for list: String) {
@@ -52,9 +52,9 @@ struct  PaymentListManager {
         let decoder = JSONDecoder()
         do {
             let decodedData = try decoder.decode(ContentData.self, from: data)
-            let lastlist = decodedData.list
-            print(lastlist)
-            return lastlist
+            let mylist = decodedData.list
+            print(mylist)
+            return mylist
             
         } catch {
             delegate?.didFailWithError(error: error)

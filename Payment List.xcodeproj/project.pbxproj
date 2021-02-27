@@ -48,9 +48,9 @@
 		E9766E5B25E3DD2D00827679 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E981221F25E474EE0092AB7D /* PaymentListManager.swift */,
 				E9766E5725E3DB8A00827679 /* LoggingData.swift */,
 				E981222225E48FDA0092AB7D /* ContentData.swift */,
-				E981221F25E474EE0092AB7D /* PaymentListManager.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
